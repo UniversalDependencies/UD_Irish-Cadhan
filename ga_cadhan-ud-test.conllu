@@ -348,7 +348,7 @@
 12	is	is	AUX	_	Tense=Pres|VerbForm=Cop	13	cop	_	_
 13	maith	maith	ADJ	_	Degree=Pos	2	conj	_	_
 14	do	do	ADP	_	_	15	case	_	_
-15	muintir	muintir	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	_
+15	muintir	muintir	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	_
 16	Callain	Challainn	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	_
 17	nachar	nár	PART	_	PartType=Cmpl|Polarity=Neg|Tense=Past	18	mark:prt	_	_
 18	sheasadh	seas	VERB	_	Form=Len|Mood=Ind|Tense=Past	13	csubj:cleft	_	SpaceAfter=No
@@ -475,7 +475,7 @@
 4	fada	fada	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
 5	mín	mín	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
 6	direach	díreach	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
-7	caitheas	caith	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	2	csubj:cleft	_	_
+7	caitheas	caith	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	3	acl:relcl	_	_
 8	fein	féin	PRON	_	Reflex=Yes	7	nmod	_	_
 9	agus	agus	CCONJ	_	_	11	cc	_	_
 10	m'	mo	DET	_	Number=Sing|Person=1|Poss=Yes	11	nmod:poss	_	SpaceAfter=No
@@ -1745,8 +1745,8 @@
 6	gurab	is	AUX	_	Form=VF|Tense=Past|VerbForm=Cop	8	cop	_	_
 7	é	é	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
 8	am	am	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	acl	_	_
-9	fa'r	faoi	PART	_	PronType=Rel	10	mark:prt	_	_
-10	thionnsgnadar	tionscain	VERB	_	Form=Len|Mood=Ind|Number=Plur|Person=3|Tense=Past	8	csubj:cleft	_	_
+9	fa'r	faoi	PART	_	PronType=Rel	10	obl	_	_
+10	thionnsgnadar	tionscain	VERB	_	Form=Len|Mood=Ind|Number=Plur|Person=3|Tense=Past	8	acl:relcl	_	_
 11	cliar	cliar	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 12	Éireann	Éire	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_
 13	an	an	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
@@ -3731,7 +3731,7 @@
 3	rud	rud	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	advcl	_	_
 4	é	é	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 5	go	go	PART	_	PartType=Cmpl	6	mark:prt	_	_
-6	mbeadh	bí	VERB	_	Form=Ecl|Mood=Cnd	3	csubj:cop	_	_
+6	mbeadh	bí	VERB	_	Form=Ecl|Mood=Cnd	3	ccomp	_	_
 7	breac	breac	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 8	beag	beag	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 9	suaithinseach	suaithinseach	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
@@ -4321,7 +4321,7 @@
 2	Brisfidh	bris	VERB	_	Mood=Ind|Tense=Fut	20	ccomp	_	_
 3	Drútar	Drútar	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	isteach	isteach	ADV	_	_	2	advmod	_	_
-5	beathach	beithíoch	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	beathach	beithíoch	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
 6	allta	allta	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
 7	lá	lá	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	obl:tmod	_	_
 8	ar	ar	ADP	_	_	7	nmod	_	_
