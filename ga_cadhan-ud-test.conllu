@@ -847,7 +847,7 @@
 10	mbeath	bí	VERB	_	Form=Ecl|Mood=Cnd	3	ccomp	_	_
 11	a	a	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	_
 12	fhios	fios	NOUN	_	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	10	nsubj	_	_
-13	aca	ag	ADP	_	Number=Plur|Person=3	10	obl:prep	_	_
+13	aca	ag	ADP	_	Number=Plur|Person=3	10	xcomp:pred	_	_
 14	tusa	tusa	PRON	_	Number=Sing|Person=2|PronType=Emp	17	obj	_	_
 15	amháin	amháin	ADJ	_	Degree=Pos	14	amod	_	_
 16	do	a	PART	_	PartType=Inf	17	mark	_	_
