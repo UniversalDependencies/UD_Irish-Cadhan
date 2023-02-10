@@ -68,7 +68,7 @@ Dr Theodorus Fransen as part of a [CLS INFRA](https://clsinfra.io/) TNA fellowsh
 Charles University, Prague (CZ), between September and December 2022. 
 The version of the poem contained in the treebank is based on a lightly edited transcription available at 
 https://bardic.celt.dias.ie/displayPoem.php?firstLineID=1387. 
-Each of the 42 quatrains corresponds to one sentence (with the prefixed identifier `bardic_1387`), 
+Each of the 42 quatrains corresponds to one sentence (with the prefixed identifier `bardic_1387-`), 
 with sentence 43 constituting _closure_ (a repetition of (part of) the first line of the poem).
 It was found that splitting up the poem in smaller units resulted in too fragmented sentences. 
 More information can be found at https://github.com/ThFransen84/UD_Irish-Bardic.
