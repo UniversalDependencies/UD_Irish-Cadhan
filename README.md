@@ -2,6 +2,9 @@
 
 This is the Cadhan Aonair UD treebank, consisting of 
 150 sentences randomly sampled from six pre-standard Irish texts.
+It was subsequently augmented with a late Early Modern Irish syllabic poem 
+representing 43 sentences, described in a
+[separate section below](#bardic-segment).
 
 # Introduction
 
@@ -54,7 +57,25 @@ parsing them with a UDPipe model trained on the
 [modern Irish treebank](https://github.com/UniversalDependencies/UD_Irish-IDT),
 projecting the annotations back to the source texts, and then
 manually correcting the results. Full details are available
-in (Scannell, 2022).
+in Scannell (2022).
+
+# Bardic segment
+
+A late Early Modern Irish syllabic (“bardic”) poem entitled
+<em>Mo mhallacht ort, a shaoghail</em> (“My curse on you, world”, c. 1655)
+was subsequently added to the Cadhan Aonair pre-standard treebank, also
+using the pipeline described in Scannell (2022).
+The text consists of 1004 tokens and was converted to a UD treebank by
+Dr Theodorus Fransen as part of a [CLS INFRA](https://clsinfra.io/)
+TNA fellowship at ÚFAL,
+Charles University, Prague (CZ), between September and December 2022. 
+The version of the poem contained in the treebank is based on a
+lightly edited transcription available at 
+https://bardic.celt.dias.ie/displayPoem.php?firstLineID=1387. 
+Each of the 42 quatrains corresponds to one sentence (with the prefixed identifier `bardic_1387-`), 
+with sentence 43 representing _closure_ (a repetition of (part of) the first line of the poem).
+It was found that splitting up the poem into smaller units resulted in too fragmented sentences. 
+More information can be found at https://github.com/ThFransen84/UD_Irish-Bardic.
 
 # Acknowledgments
 
