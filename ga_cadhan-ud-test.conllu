@@ -2607,7 +2607,7 @@
 34	iomad	iomad	NOUN	_	Case=Nom|Definite=Def|Number=Sing	24	conj	_	_
 35	oiléan	oileán	NOUN	_	Case=Gen|Gender=Masc|NounType=Weak|Number=Plur	34	nmod	_	_
 36	ar	ar	PART	_	_	22	advmod	_	_
-37	cheana	cheana	ADV	_	_	1	fixed	_	SpaceAfter=No
+37	cheana	cheana	ADV	_	_	36	fixed	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	41	punct	_	_
 39	agus	agus	CCONJ	_	_	41	cc	_	_
 40	do	do	PART	_	PartType=Vb	41	mark:prt	_	_
