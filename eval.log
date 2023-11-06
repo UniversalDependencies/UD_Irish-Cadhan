@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Irish-Cadhan:
-commit cdde8d3f32a49308a7872877d233bd16ef8e9e6e
-Merge: 560100a b9aa26f
+commit fd13a42a505b6a36096cdb291b4e7d911fd5f2f2
+Merge: b0c6f46 7d25534
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 4783 of 4783 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.13013592939632.
@@ -23,18 +23,18 @@ Udapi:
                TOTAL        759
 Udapi: found 759 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 4783 words.
-Genres: found 3 out of 17 known.
+Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-Cadhan/ga_cadhan-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
+(weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.226566793623988) = 0.0580940496471764
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.72972972972973) = 0.0561330561330561
-(TOTAL score=0.357635853894863) * (availability=1) * (validity=1) = 0.357635853894863
+(TOTAL score=0.362160740772691) * (availability=1) * (validity=1) = 0.362160740772691
 STARS = 2
-UD_Irish-Cadhan	0.357635853894863	2
+UD_Irish-Cadhan	0.362160740772691	2
