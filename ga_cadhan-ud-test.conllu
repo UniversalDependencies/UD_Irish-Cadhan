@@ -3846,7 +3846,7 @@
 16	leó	le	ADP	_	Number=Plur|Person=3	14	obl:prep	_	_
 17	ag	ag	ADP	_	_	18	case	_	_
 18	Rink	Rink	PROPN	_	Foreign=Yes	14	obl	_	_
-19	Rapids	Rapids	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+19	Rapids	Rapids	PROPN	_	Foreign=Yes	18	flat	_	_
 20	ar	ar	ADP	_	_	22	case	_	_
 21	an	an	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 22	astar	aistear	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
@@ -4390,8 +4390,8 @@
 27	Dyea	Dyea	PROPN	_	Foreign=Yes	24	obl	_	_
 28	agus	agus	CCONJ	_	_	30	cc	_	_
 29	ar	ar	ADP	_	_	30	case	_	_
-30	Salt	Salt	X	_	Foreign=Yes	27	conj	_	_
-31	Water	Water	X	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+30	Salt	Salt	PROPN	_	Foreign=Yes	27	conj	_	_
+31	Water	Water	PROPN	_	Foreign=Yes	30	flat	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = scairt-1371
