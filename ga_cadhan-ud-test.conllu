@@ -987,7 +987,7 @@
 # sent_id = eoin-896
 # text = Agus tar éis na neitheadhso, doiárr Íoséph on Arimathea noch dhobhí na dhisgiobal ag Iósa, gidheadh gu foluightheach ar eagla na Níuduidheadh ar Philat, corp Iósa do leagadh siós: agus tug Pilát an cead sin do.
 # text_standard = Agus tar éis na nithe seo, d'iarr Iósaef ó Airiomatáia a bhí ina dheisceabal ag Íosa, cé ea go folaitheach ar eagla na nGiúdach ar Phíoláit, corp Íosa a leagan síos: agus thug Píoláit an cead sin dó.
-# And after this Joseph of Arimathaea, being a disciple of Jesus, but secretly for fear of the Jews, besought Pilate that he might take away the body of Jesus: and Pilate gave him leave.
+# text_en = And after this Joseph of Arimathaea, being a disciple of Jesus, but secretly for fear of the Jews, besought Pilate that he might take away the body of Jesus: and Pilate gave him leave.
 1	Agus	agus	SCONJ	_	_	5	mark	_	_
 2	tar	tar	ADP	_	PrepForm=Cmpd	5	case	_	_
 3	éis	éis	NOUN	_	Case=Nom|Definite=Def|Number=Sing|PrepForm=Cmpd	2	fixed	_	_
