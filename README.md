@@ -104,6 +104,7 @@ and for inspiring this line of research.
 Data available since: UD v2.11
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction nonfiction bible poetry
 Lemmas: manual native
 UPOS: manual native
