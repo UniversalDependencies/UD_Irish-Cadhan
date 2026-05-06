@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Irish-Cadhan:
-commit 48e53d181028637daae2f05d8275b76144eef8a7
-Merge: a5b0cdd 7e6580a
+commit 96acef1dbd3c7a09b859f548deffd6fc0ed38d61
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:47:53 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ga_cadhan'
 Language code (from CoNLL-U file name) = 'ga'
@@ -25,23 +25,42 @@ Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 4 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-Cadhan/ga_cadhan-ud-test.conllu
-[Line 64 Sent cinlae-340]: [L3 Warning pron-det-without-prontype] The word 'A' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 67 Sent cinlae-340]: [L3 Warning pron-det-without-prontype] The word 'fein' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 70 Sent cinlae-340]: [L3 Warning pron-det-without-prontype] The word 'gach' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 114 Sent cinlae-302]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'tteacht') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 116 Sent cinlae-302]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'tteacht') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 145 Sent cinlae-17]: [L3 Warning pron-det-without-prontype] The word 'mo' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 283 Sent cinlae-275]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 290 Sent cinlae-275]: [L3 Warning pron-det-without-prontype] The word 'é' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 293 Sent cinlae-275]: [L3 Warning pron-det-without-prontype] The word 'se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 296 Sent cinlae-275]: [L3 Warning pron-det-without-prontype] The word 'gac' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 1812 Sent forasfeasa-242]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('Cé')
-[Line 3942 Sent scairt-1774]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
-[Line 4762 Sent bardic_1387-9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('ima')
-Syntax errors: 3
-Warnings: 375
-*** FAILED *** with 3 errors
+[Line 64 Sent cinlae-340]: [L3 WARNING pron-det-without-prontype] The word 'A' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 67 Sent cinlae-340]: [L3 WARNING pron-det-without-prontype] The word 'fein' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 70 Sent cinlae-340]: [L3 WARNING pron-det-without-prontype] The word 'gach' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 114 Sent cinlae-302]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'tteacht') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 116 Sent cinlae-302]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'tteacht') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 145 Sent cinlae-17]: [L3 WARNING pron-det-without-prontype] The word 'mo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 283 Sent cinlae-275]: [L3 WARNING pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 290 Sent cinlae-275]: [L3 WARNING pron-det-without-prontype] The word 'é' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 293 Sent cinlae-275]: [L3 WARNING pron-det-without-prontype] The word 'se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 296 Sent cinlae-275]: [L3 WARNING pron-det-without-prontype] The word 'gac' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 304 Sent cinlae-275]: [L3 WARNING pron-det-without-prontype] The word 'sé' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 315 Sent cinlae-275]: [L3 WARNING fixed-without-extpos] Fixed expression 'noch do' does not have the 'ExtPos' feature
+[Line 329 Sent cinlae-275]: [L3 WARNING pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 413 Sent cinlae-229]: [L3 WARNING fixed-without-extpos] Fixed expression 'd' eis' does not have the 'ExtPos' feature
+[Line 432 Sent cinlae-229]: [L3 WARNING fixed-without-extpos] Fixed expression 'noch do' does not have the 'ExtPos' feature
+[Line 562 Sent cinlae-211]: [L3 WARNING fixed-without-extpos] Fixed expression 'tar eis' does not have the 'ExtPos' feature
+[Line 693 Sent cinlae-348]: [L3 WARNING fixed-without-extpos] Fixed expression 'go leor' does not have the 'ExtPos' feature
+[Line 770 Sent eoin-785]: [L3 WARNING fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
+[Line 992 Sent eoin-896]: [L3 WARNING fixed-without-extpos] Fixed expression 'tar éis' does not have the 'ExtPos' feature
+[Line 1004 Sent eoin-896]: [L3 WARNING fixed-without-extpos] Fixed expression 'noch dho' does not have the 'ExtPos' feature
+[Line 1207 Sent eoin-871]: [L3 SYNTAX obl-should-be-nmod] The parent (node [39] 'dtaobh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1676 Sent forasfeasa-97]: [L3 WARNING fixed-without-extpos] Fixed expression 're linn' does not have the 'ExtPos' feature
+[Line 1689 Sent forasfeasa-97]: [L3 WARNING fixed-without-extpos] Fixed expression 'tar ais' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1786 Sent forasfeasa-137]: [L3 SYNTAX obl-should-be-nmod] The parent (node [46] 'chuid') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1812 Sent forasfeasa-242]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('Cé')
+[Line 2210 Sent forasfeasa-232]: [L3 SYNTAX obl-should-be-nmod] The parent (node [20] 'fir') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3926 Sent scairt-281]: [L3 SYNTAX obl-should-be-nmod] The parent (node [29] 'fhios') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3942 Sent scairt-1774]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 4762 Sent bardic_1387-9]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('ima')
+[Line 5163 Sent bardic_1387-23]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'bplanntughadh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 366
+SYNTAX errors: 12
+*** FAILED *** with 12 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
